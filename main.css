@@ -1,0 +1,68 @@
+body {
+    font-family: ubuntu, sans-serif;
+}
+
+.navbar {
+    background-color: #ccc;
+}
+
+.nav .nav-link.active {
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #1d1d1d;
+}
+
+.navbar-brand {
+    font-family: Righteous;
+}
+
+.navbar-togller {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: Righteous;
+}
+
+#about-me, #section-3 {
+    background-color: #e2e2e2;
+}
+
+.text-colored {
+    color: rgb(170, 24, 199);
+}
+
+.nav-section-3 .nav-link.active {
+    background-color: rgb(170, 24, 199);
+    color: #fff;
+}
+
+.nav-section-3 .nav-link.active:hover {
+    color: #1d1d1d;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+
+@media (mnax-width: 767) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+#footer {
+    background-color: #1d1d1d;
+    color: #1d1d1d;
+}
